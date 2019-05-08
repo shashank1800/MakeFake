@@ -10,10 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".MainActivity"
-            android:icon="@drawable/calc_icon">
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity android:name=".HomeActivity" />
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -21,16 +22,53 @@
         </activity>
 
         <activity-alias
-            android:name=".Main2Activity"
+            android:name=".WhatsApp"
             android:enabled="false"
-            android:label="WhatsApp"
             android:icon="@drawable/whatsapp"
+            android:label="WhatsApp"
             android:targetActivity=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity-alias>
+
+        <activity-alias
+            android:name=".Instagram"
+            android:enabled="false"
+            android:icon="@drawable/instagram"
+            android:label="Instagram"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".Snapchat"
+            android:enabled="false"
+            android:icon="@drawable/snapchat"
+            android:label="Snapchat"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".Facebook"
+            android:enabled="false"
+            android:icon="@drawable/facebook"
+            android:label="Facebook"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
     </application>
 
 </manifest>
