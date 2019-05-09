@@ -89,6 +89,7 @@ class HomeActivity : AppCompatActivity() {
                 PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
                 PackageManager.DONT_KILL_APP
         )
+
     }
 
 }
