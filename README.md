@@ -1,5 +1,5 @@
 # MakeFake 
-Convert this app to fake WhatsApp, Facebook, Instagram and Snapchat. When you open the app it says error but click on wait and go to menu and report you will get the option to change the app. Reset the launcher to see the changes!!
+Convert this app to fake WhatsApp, Facebook, Instagram and Snapchat.When you change it to one of these option, app icon turns to your option and even the name. When you open the app it says error but click on wait and go to menu and report you will get the option to change the app. Reset the launcher to see the changes!!
 
 ## Link
 [Play Store](https://play.google.com/store/apps/details?id=com.shashankbhat.makefake)
